@@ -1,0 +1,29 @@
+,,Name,CAD,Source,Notes
+,Mechanical,,,,
+,1,Hydraulic Press,,Harbor Freight,
+,1,Press Connector,PressConnector.SLDPRT,Custom,Modified to press
+,4,16mm guide shaft,7121045-Z-ZShaft.SLDPRT,Misumi,
+,4,Shaft end,2MaskBottomPlate2.SLDPRT,Custom,Can be simplified
+,4,Linear bearings and blocks,BearingBlock-RLG16.SLDPRT,Misumi,
+,4,Linear bearings and blocks,ClampingBearingBlock.SLDPRT,Misumi,
+,3,Mold,N95_Mask_Mold.SLDPRT - 1,Custom,
+,1,Lower plate,N95_Mask_Mold.SLDPRT - 2,Custom,
+,1,Upper plate,N95_Mask_Mold.SLDPRT - 3,Custom,
+,1,Baseplate,N95_Mask_Mold.SLDPRT - 5,Custom,
+,2,Top Plate,TopPlate.SLDPRT,Custom,
+,1,Crosspiece,Crosspiece.SLDPRT,Custom,
+,22,Standoffs,Standoff.SLDPRT,McMaster,
+,22,Shoulder screws,ShoulderScrew-ISO7379.SLDPRT,McMaster,
+,4,Steel bracket,SteelBracket.SLDPRT,Custom,
+,2,Spring Plate,SpringPlate.SLDPRT,Custom,
+,1,Platform,HFSQN4-15250-600.SLDPRT,Misumi,
+,,,,,
+,Electrical,,,,
+,1,Cabinet and baseplate,,,
+,1,Controller,,Duet3D,Duet Wifi+Duex5
+,4,Power supply,,,"24V, total of ~50A required"
+,2,DC SSR,,Fotek or similar,
+,1,Pressure switch,,,Depends on Press
+,1,AC SSR,,,
+,44,24V heater,,,"40W cartridge heater, common for 3D printers"
+,9,Thermistor,,,"M3 threaded stud, common for 3D printers"
